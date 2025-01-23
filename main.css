@@ -1,0 +1,100 @@
+header .container {
+    background-color: black;
+    display: flex;
+    max-width: 100%;
+}
+
+header .container img {
+    width: 70px;
+    padding-left: 15px;
+}
+
+header div button#collapse {
+    background-color: #fff;
+}
+
+header .container ul a {
+    color: #fff;
+    margin: 5px;
+}
+
+
+.nav-link:hover {
+    background-color: #fff;
+}
+
+
+header .container ul .btn.btn-primary {
+    background-color: rgba(62, 60, 60, 0.268);
+    border: none;
+    padding-top: 12px;
+}
+
+header .container ul .btn.btn-primary:hover {
+    background-color: #fff;
+    color: black;
+    border-radius: 0%;
+    width: 100%;
+}
+
+.conteudo-cards {
+    background-color: #343a40;
+}
+
+.section-title {
+    font-family: Pacifico, cursive;
+    color: #fff;
+}
+
+.cards {
+    color: #fff;
+}
+
+.section-title span {
+    color: #e4b416;
+}
+
+.row h2{
+    font-family: Pacifico, cursive;
+    color: #343a40;
+}
+
+.colored-title {
+    color: #e4b416;
+    font-family: Pacifico, cursive;
+}
+
+.nav-rooms .nav-link.active {
+    background-color: #e4b416;
+    color: #fff;
+}
+
+#rooms {
+    background-color: #686a6c;
+}
+.nav-rooms .nav-link:hover {
+    color: #e4b416;
+}
+
+.nav-rooms .nav-link.active:hover {
+    color:#fff;
+}
+
+.title-color{
+    color: #e4b416;
+}
+
+.social-links {
+    display: inline-flex;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.social-links li a {
+    padding: 20px;
+}
+
+#fale-conosco button {
+    background-color: #e4b416;
+    color: #fff;
+}

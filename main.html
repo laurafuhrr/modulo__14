@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masami Fusion Cuisine</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#cabecalho">
+
+    <header id="cabecalho" class="sticky-top">
+        <div class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <img src="./assets/logo.png" alt="Logo">
+                <button id="collapse" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul id="item" class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#conteudo-restaurante">Sobre Masami</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#drinks">
+                                <i class="bi bi-cup-straw"></i>
+                                Drinks
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#rooms">Meeting Rooms</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#fale-conosco">Fale Conosco</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section id="conteudo-restaurante">
+        <div class="carousel slide" data-bs-ride="carousel" id="Carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img class="w-100" src="./assets/img 1.jpg" alt="">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="w-100" src="./assets/img 2.jpg " alt="">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="w-100" src="./assets/img 3.jpg " alt="">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="w-100" src="./assets/img 4.jpg" alt="">
+                </div>
+            </div>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#Carousel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#Carousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#Carousel" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#Carousel" data-bs-slide-to="3"></button>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#Carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#Carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+        <div class="conteudo-cards pt-5 pb-5">
+            <div class="cards">
+                <div class="row">
+                    <div class="col-md-5">
+                        <img src="./assets/foto1.png" class="d-block w-100 ">
+                    </div>
+                    <div class="col-md-7">
+                        <h2 class="section-title">Sobre <span>Masami</span></h2>
+                        <p class="branco">
+                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+                        </p>
+                        <h3 class="section-title">Sobre o <span>espaço</span></h3>
+                        <ul class="branco">
+                            <li>Item 1</li>
+                            <li>Item 2</li>
+                            <li>item 3</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="drinks">
+        <div class="container pt-5 pb-5">
+            <div class="row">
+                <h2 class="text-center"> Seleção de drinks <span class="colored-title"> Masami</span></h2>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="./assets/cocktail.jpg" class="w-100 d-block rounded">
+                    <h3 class="colored-title fs-4">Cocktails</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="./assets/wine1.jpg" class="w-100 d-block rounded">
+                    <h3 class="colored-title fs-4">Vinhos</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="./assets/suco.jpg" class="w-100 d-block rounded">
+                    <h3 class="colored-title fs-4">Sucos</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="rooms" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center mb-2">Meeting <span>Rooms</span></h2>
+            </div>
+            <div class="row">
+                <aside class="col-md-2">
+                    <nav class="nav nav-pills flex-column nav-rooms">
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#business" class="fw-bold text-start nav-link title-color active">Business Rooms</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#Events" class="fw-bold text-start nav-link title-color">Event Rooms</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#Meeting" class="fw-bold text-start nav-link title-color">Meeting Rooms</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#External" class="fw-bold text-start nav-link title-color">External Rooms</button>
+                </aside>
+                <div class="col-md-10">
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="business">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./assets/carrosel2.1.jpg" />
+                                    <h5 class="title-color active">Business room</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./assets/carrosel2.2.jpg" />
+                                    <h5 class="title-color active">Business room</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./assets/carrosel2.3.jpg" />
+                                    <h5 class="title-color active">Business room</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                </div>
+                        </div>
+                            </div>
+                            <div class="tab-pane" id="Events">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./assets/carrosel2.2.jpg" />
+                                        <h5 class="title-color active">Business room</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./assets/carrosel2.3.jpg" />
+                                        <h5 class="title-color active">Business room</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./assets/carrosel2.jpg" />
+                                        <h5 class="title-color active">Business room</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    </div>
+                                </div>
+                            </div>
+                                <div class="tab-pane" id="Meeting">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./assets/carrosel2.1.jpg" />
+                                            <h5 class="title-color active">Business room</h5>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./assets/carrosel2.3.jpg" />
+                                            <h5 class="title-color active">Business room</h5>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./assets/cocktail.jpg" />
+                                            <h5 class="title-color active">Business room</h5>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="External">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./assets/img 3.jpg" />
+                                            <h5 class="title-color active">Business room</h5>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./assets/img 4.jpg" />
+                                            <h5 class="title-color active">Business room</h5>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./assets/img 4.jpg" />
+                                            <h5 class="title-color active">Business room</h5>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="fale-conosco">
+        <div class="container">
+            <h2 class="colored-title text-center">Fale Conosco</h2>
+            <div class="row">
+                <div class="col-md-7">
+                    <form>
+                        <div class="mb-3">
+                            <label for="nome" class="form-label fw-bold">Seu nome</label>
+                            <input type="text" id="nome" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label fw-bold">Seu email</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="telefone" class="form-label fw-bold">Seu telefone</label>
+                            <input type="tel" id="telefone" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                        <label for="Sua mensagem" class="form-label fw-bold">Sua mensagem</label>
+                        <textarea class="form-control" id="mensagem" required></textarea>
+                        </div>
+                        <button type="submit" class="btn fw-bold">Enviar</button>
+                    </form>
+                </div>
+                <div class="col-md-5">
+                    <div class="row">
+                        <h3 class="colored-title fs-4">
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            Redes sociais</h3>
+                        <ul class="social-links">
+                            <li class="fs-5">
+                                <a href="#">
+                                    <i class="bi bi-facebook colored-title"></i>
+                                </a>
+                            </li>
+                            <li class="fs-5">
+                                <a href="#">
+                                    <i class="bi bi-instagram colored-title"></i>
+                                </a>
+                            </li>
+                            <li class="fs-5">
+                                <a href="#">
+                                    <i class="bi bi-threads colored-title"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row">
+                        <h3 class="colored-title fs-4">Endereço</h3>
+                        <p>
+                            <i class="bi bi-pin-angle"></i>
+                            Rua exemplo, numero 145 - São Paulo
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
